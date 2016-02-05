@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Weather Activity-->
+    <string name="weather_activity_current_condition">Current Condition</string>
+    <string name="weather_activity_temperature">Temperature</string>
+    <string name="weather_activity_wind_speed">Wind Speed</string>
+    <string name="weather_activity_wind_direction">Wind Direction</string>
+    <string name="weather_activity_icon">Weather Icon</string>
+    <string name="weather_activity_outdated_data">Last updated more than 24 hours ago…</string>
+    <string name="weather_activity_no_data">No previous data</string>
+    <string name="weather_activity_error_message">Update Error. Check your Internet connection.</string>
+    <string name="weather_activity_wind_speed_format">%.2f mph</string>
+
+</resources>
