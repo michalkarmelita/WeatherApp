@@ -10,5 +10,5 @@ The application folows MVP convention and uses RxJava as well as dependency inje
 * If offline, and there are no previous conditions known, or the previous conditions are more than 24 hours old:
   - A screen is displayed to indicate there is no previous data available.
   - A button is displayed to allow a user to refresh the data.
-* If I refresh the data manually, and I am offline, a message should be displayed to indicate that I need to connect to the Internet in order to get updated data.
+* If user refresh the data manually, and is offline, a message is displayed to indicate that user need to connect to the Internet in order to get updated data.
 * The app display a loading indicator if it is fetching data.
