@@ -3,7 +3,7 @@
 WeatherApp is simple showcase appliaction that shows current conditions (sunny, foggy, raining, etc.), temperature, wind speed and direction. By use of OpenWeatherMap.org API.
 The application folows MVP convention and uses RxJava as well as dependency injection.
 
-Implemented features:
+#### Implemented features:
 
 * The weather information are cached for future offline use.
 * If user is offline, and there is weather information cached that is less than 24 hours old. The last known conditions and location is shown along with a prominent display to indicate when the data was last updated.
