@@ -12,5 +12,6 @@
     <string name="weather_activity_no_data">No previous data</string>
     <string name="weather_activity_error_message">Update Error. Check your Internet connection.</string>
     <string name="weather_activity_wind_speed_format">%.2f mph</string>
+    <string name="weather_activity_temperature_format">%4.1f °C</string>
 
 </resources>

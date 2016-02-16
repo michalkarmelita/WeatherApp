@@ -109,7 +109,8 @@ public class WeatherPresenter {
         temperatureObservable = weatherObservable.map(new Func1<LocalWeather, String>() {
             @Override
             public String call(LocalWeather localWeather) {
-                return localWeather.getMain().getTemp();
+                final double temp = Double.valueOf(localWeather.getMain().getTemp()) - 273;
+                return String.format(resources.getString(R.string.weather_activity_temperature_format), temp);
             }
         });
 
