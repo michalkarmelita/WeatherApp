@@ -12,3 +12,12 @@ The application folows MVP convention and uses RxJava as well as dependency inje
   - A button is displayed to allow a user to refresh the data.
 * If user refresh the data manually, and is offline, a message is displayed to indicate that user need to connect to the Internet in order to get updated data.
 * The app display a loading indicator if it is fetching data.
+
+
+# Buid instructions
+
+After cloning this repository please make sure that submodules was initialized and updated.
+```
+git submodule init
+git submodule update
+```
